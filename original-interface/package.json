@@ -6,6 +6,7 @@
   "license": "MIT",
   "private": null,
   "dependencies": {
+    "eslint": "^5.16.0",
     "jasmine": "^3.4.0",
     "jasmine-core": "^3.3",
     "karma": "^4.0.1",
@@ -17,6 +18,7 @@
     "requirejs": "^2.3.6"
   },
   "scripts": {
+    "lint:js": "eslint --ext .js src/main/webapp/WEB-INF/js",
     "test": "karma start --single-run true src/test/javascript/karma.conf.js"
   }
 }
