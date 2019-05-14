@@ -1,0 +1,7 @@
+.duplicate-rule {
+     display: block;
+     color: #333;
+     background-color: #eee;
+     transition: background-color .4s;
+
+}
